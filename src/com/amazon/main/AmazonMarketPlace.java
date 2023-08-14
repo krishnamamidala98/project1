@@ -42,9 +42,9 @@ public class AmazonMarketPlace {
 		 String userEmail = scanner.next();
 		 
 		 System.out.println("Enter Password: ");
-		 String userPassword = scanner.next();
+		 String userPassword = scanner.next(); //
 		 
-		 while(customersFile.hasNext()) {
+		 while(customersFile.hasNext()) { //
 			 
 			 customerDataFromFile = customersFile.next();
 			 
